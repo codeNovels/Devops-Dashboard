@@ -1,0 +1,26 @@
+﻿<div class="container-fluid view" ng-init="getChannel();">
+
+    <div class="row">
+
+        <div class="col-lg-8" id="youtubeDiv">
+            <youtube video-id="{{ytvideoId}}" width="{{width}}" height="{{height}}"></youtube>
+        </div>
+
+        <div class="col-lg-4 pull-right" id="youtubeResults">
+
+            <!--Sidebar content-->
+            <div id="results">
+                <div class="video" style="text-align:left" data-ng-repeat="item in channel.items" data-ng-click="selectYoutubeVideo(item.snippet.resourceId.videoId)">
+                    <img class="video-image" data-ng-src="{{ item.snippet.thumbnails.default.url }}" />
+                    <p class="video-title">{{ item.snippet.title }}</p>
+                    <p class="video-author">{{ item.snippet.channelTitle }}</p>
+                    <p class="video-description">{{ item.snippet.description | limitTo: 100 }}</p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+

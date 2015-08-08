@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <base href="/info" />
+
+    <title>Devops Dashboard</title>
+    <link rel="icon" type="image/png" href="/info/assets/dota.png" sizes="32x32">
+
+    <script src="/info/js/angular.min.js"></script>
+    <script src="/info/scripts/app.js"></script>
+    <script src="/info/scripts/viewController.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.min.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+    <script src="/info/scripts/controllers/youtubeController.js"></script>
+    <script src="/info/scripts/services/youtubeService.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,900' rel='stylesheet' type='text/css'>
+    <link href="/info/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/info/css/sb-admin.css" rel="stylesheet">
+    <link href="/info/css/animations.css" rel="stylesheet">
+    <link href="/info/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body style="background-image:url('/info/assets/background_{{bodyBackground}}.jpg'); background-repeat:no-repeat; height: 100%; background-attachment: fixed" ng-controller="tabController">
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2); ">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="nav-home" class="navbar-brand" ng-click="navBrandBackground()"> </a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Devops <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Stuck?lol </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            
+
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse" id="topnav">
+                <ul class=" nav navbar-nav side-nav" style="background: rgba(0, 0, 0, 0.3); border-color: white;">
+                    <li ng-class="{ active: isSet(1)}" ng-click="tabSelector('wow', 1)">
+                        <a href="info/home"><img src="/info/assets/wow.png" style="height: 50px" /> <br /> <small> Home </small> </a>
+                    </li>
+                    <li ng-class="{ active: isSet(2)}" ng-click="tabSelector('d3', 2)">
+                        <a href="info/serverlist"><img src="/info/assets/d3.png" style="height: 60px" /> <br /> <small> Server List </small> </a>
+                    </li>
+                    <li ng-class="{ active: isSet(3)}" ng-click="tabSelector('sc2', 3)">
+                        <a href="info/deployschedule"><img src="/info/assets/s2.png" style="height: 50px" /> <br /> <small> Schedule </small> </a>
+                    </li>
+                    <li ng-class="{ active: isSet(4)}" ng-click="tabSelector('hearth',4)">
+                        <a href="info/videos"><img src="/info/assets/hearth.png" style="height: 50px" /> <br /> <small> Videos </small> </a>
+                    </li>
+                    <li ng-class="{ active: isSet(5)}" ng-click="tabSelector('overwatch',5)">
+                        <a href="info/teamtasks"><img src="/info/assets/hos.png" style="height: 55px" /> <br /> <small> Team Tasks </small> </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        
+        <div ng-view></div>
+
+
+
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="/info/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/info/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

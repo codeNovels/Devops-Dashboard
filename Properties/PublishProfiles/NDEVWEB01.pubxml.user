@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\NDEVWEB01\c$\_DevOps.com\info</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/background_d3.jpg">
+      <publishTime>07/31/2015 10:01:18</publishTime>
+    </File>
+    <File Include="assets/background_hearth.jpg">
+      <publishTime>07/31/2015 10:01:18</publishTime>
+    </File>
+    <File Include="assets/background_hearth2.jpg">
+      <publishTime>07/31/2015 10:55:13</publishTime>
+    </File>
+    <File Include="assets/background_overwatch.jpg">
+      <publishTime>07/31/2015 10:01:18</publishTime>
+    </File>
+    <File Include="assets/background_sc2.jpg">
+      <publishTime>07/31/2015 16:42:38</publishTime>
+    </File>
+    <File Include="assets/background_wow.jpg">
+      <publishTime>07/31/2015 10:01:18</publishTime>
+    </File>
+    <File Include="assets/background_zelda.jpg">
+      <publishTime>07/31/2015 10:51:00</publishTime>
+    </File>
+    <File Include="assets/battlenet.png">
+      <publishTime>07/31/2015 10:01:18</publishTime>
+    </File>
+    <File Include="assets/d3.png">
+      <publishTime>07/30/2015 12:49:09</publishTime>
+    </File>
+    <File Include="assets/devops.png">
+      <publishTime>08/02/2015 19:03:40</publishTime>
+    </File>
+    <File Include="assets/devopslogo.png">
+      <publishTime>07/31/2015 14:53:12</publishTime>
+    </File>
+    <File Include="assets/dota.png">
+      <publishTime>08/04/2015 12:03:07</publishTime>
+    </File>
+    <File Include="assets/hearth.png">
+      <publishTime>07/30/2015 12:49:09</publishTime>
+    </File>
+    <File Include="assets/hos.png">
+      <publishTime>07/30/2015 12:57:02</publishTime>
+    </File>
+    <File Include="assets/logo-bnet.png">
+      <publishTime>07/31/2015 12:28:42</publishTime>
+    </File>
+    <File Include="assets/s2.png">
+      <publishTime>07/30/2015 13:07:41</publishTime>
+    </File>
+    <File Include="assets/schedule.png">
+      <publishTime>08/04/2015 14:44:36</publishTime>
+    </File>
+    <File Include="assets/serverlist/header.png">
+      <publishTime>07/31/2015 11:04:18</publishTime>
+    </File>
+    <File Include="assets/serverlist/octocat.png">
+      <publishTime>07/31/2015 11:04:18</publishTime>
+    </File>
+    <File Include="assets/serverlist/pilot.png">
+      <publishTime>07/31/2015 11:04:18</publishTime>
+    </File>
+    <File Include="assets/serverlist/prodcd.png">
+      <publishTime>07/31/2015 11:04:18</publishTime>
+    </File>
+    <File Include="assets/serverlist/prodcd2.png">
+      <publishTime>07/31/2015 11:04:18</publishTime>
+    </File>
+    <File Include="assets/serverlist/stgneriumup.png">
+      <publishTime>07/31/2015 11:04:18</publishTime>
+    </File>
+    <File Include="assets/serverlist/updesign.png">
+      <publishTime>07/31/2015 11:21:57</publishTime>
+    </File>
+    <File Include="assets/serverlist/updev.png">
+      <publishTime>07/31/2015 11:04:18</publishTime>
+    </File>
+    <File Include="assets/serverlist/upnext.png">
+      <publishTime>07/31/2015 11:04:18</publishTime>
+    </File>
+    <File Include="assets/serverlist/upnextqa.png">
+      <publishTime>07/31/2015 11:04:18</publishTime>
+    </File>
+    <File Include="assets/serverlist/upqa.png">
+      <publishTime>07/31/2015 11:04:18</publishTime>
+    </File>
+    <File Include="assets/teamtask.png">
+      <publishTime>08/02/2015 19:03:40</publishTime>
+    </File>
+    <File Include="assets/wow.png">
+      <publishTime>07/30/2015 12:49:09</publishTime>
+    </File>
+    <File Include="bin/DevopsDashboard.dll">
+      <publishTime>08/04/2015 14:48:13</publishTime>
+    </File>
+    <File Include="css/animations.css">
+      <publishTime>07/31/2015 13:04:19</publishTime>
+    </File>
+    <File Include="css/bootstrap-rtl.css">
+      <publishTime>07/30/2015 12:43:26</publishTime>
+    </File>
+    <File Include="css/bootstrap-rtl.min.css">
+      <publishTime>07/30/2015 12:43:26</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>07/30/2015 12:43:26</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>07/30/2015 12:43:26</publishTime>
+    </File>
+    <File Include="css/custom.css">
+      <publishTime>07/30/2015 12:59:51</publishTime>
+    </File>
+    <File Include="css/plugins/morris.css">
+      <publishTime>07/30/2015 12:43:26</publishTime>
+    </File>
+    <File Include="css/sb-admin-rtl.css">
+      <publishTime>07/30/2015 12:43:26</publishTime>
+    </File>
+    <File Include="css/sb-admin.css">
+      <publishTime>08/04/2015 15:36:25</publishTime>
+    </File>
+    <File Include="font-awesome/css/font-awesome.css">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/css/font-awesome.min.css">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/FontAwesome.otf">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/bordered-pulled.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/core.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/fixed-width.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/font-awesome.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/icons.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/larger.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/list.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/mixins.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/path.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/rotated-flipped.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/spinning.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/stacked.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/less/variables.less">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/font-awesome.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_core.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_fixed-width.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_icons.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_larger.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_list.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_mixins.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_path.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_spinning.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_stacked.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_variables.scss">
+      <publishTime>07/30/2015 12:43:31</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/30/2015 12:43:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/30/2015 12:43:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/30/2015 12:43:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/30/2015 12:43:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/30/2015 12:43:35</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>08/04/2015 15:37:41</publishTime>
+    </File>
+    <File Include="js/angular.min.js">
+      <publishTime>07/31/2015 10:01:18</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>07/30/2015 12:43:38</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>07/30/2015 12:43:38</publishTime>
+    </File>
+    <File Include="js/jquery.js">
+      <publishTime>07/30/2015 12:43:38</publishTime>
+    </File>
+    <File Include="js/plugins/flot/excanvas.min.js">
+      <publishTime>08/04/2015 11:58:33</publishTime>
+    </File>
+    <File Include="js/plugins/flot/flot-data.js">
+      <publishTime>08/04/2015 11:58:33</publishTime>
+    </File>
+    <File Include="js/plugins/flot/jquery.flot.js">
+      <publishTime>08/04/2015 11:58:33</publishTime>
+    </File>
+    <File Include="js/plugins/flot/jquery.flot.pie.js">
+      <publishTime>08/04/2015 11:58:33</publishTime>
+    </File>
+    <File Include="js/plugins/flot/jquery.flot.resize.js">
+      <publishTime>08/04/2015 11:58:33</publishTime>
+    </File>
+    <File Include="js/plugins/flot/jquery.flot.tooltip.min.js">
+      <publishTime>08/04/2015 11:58:33</publishTime>
+    </File>
+    <File Include="js/plugins/morris/morris-data.js">
+      <publishTime>08/04/2015 11:58:33</publishTime>
+    </File>
+    <File Include="js/plugins/morris/morris.js">
+      <publishTime>08/04/2015 11:58:33</publishTime>
+    </File>
+    <File Include="js/plugins/morris/morris.min.js">
+      <publishTime>08/04/2015 11:58:33</publishTime>
+    </File>
+    <File Include="js/plugins/morris/raphael.min.js">
+      <publishTime>08/04/2015 11:58:33</publishTime>
+    </File>
+    <File Include="scripts/app.js">
+      <publishTime>08/04/2015 11:58:53</publishTime>
+    </File>
+    <File Include="scripts/controllers/viewController.js">
+      <publishTime>08/04/2015 11:58:53</publishTime>
+    </File>
+    <File Include="scripts/controllers/youtubeController.js">
+      <publishTime>08/04/2015 11:58:53</publishTime>
+    </File>
+    <File Include="scripts/directive/youtubeDirective.js">
+      <publishTime>08/04/2015 11:58:53</publishTime>
+    </File>
+    <File Include="scripts/services/youtubeService.js">
+      <publishTime>08/04/2015 11:58:53</publishTime>
+    </File>
+    <File Include="scripts/viewController.js">
+      <publishTime>07/31/2015 17:56:30</publishTime>
+    </File>
+    <File Include="views/deployschedule.html">
+      <publishTime>08/04/2015 14:45:34</publishTime>
+    </File>
+    <File Include="views/home.html">
+      <publishTime>08/04/2015 11:58:53</publishTime>
+    </File>
+    <File Include="views/serverlist.html">
+      <publishTime>08/02/2015 19:03:40</publishTime>
+    </File>
+    <File Include="views/teamtasks.html">
+      <publishTime>08/04/2015 14:45:43</publishTime>
+    </File>
+    <File Include="views/temp.html">
+      <publishTime>07/30/2015 17:41:26</publishTime>
+    </File>
+    <File Include="views/videos.html">
+      <publishTime>08/04/2015 11:58:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/04/2015 14:48:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
